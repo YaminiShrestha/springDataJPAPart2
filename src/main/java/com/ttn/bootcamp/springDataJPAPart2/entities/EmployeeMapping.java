@@ -1,7 +1,7 @@
 package com.ttn.bootcamp.springDataJPAPart2.entities;
 
 import lombok.Data;
-import org.springframework.data.repository.cdi.Eager;
+
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

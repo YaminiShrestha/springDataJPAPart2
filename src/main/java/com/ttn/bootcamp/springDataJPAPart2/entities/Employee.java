@@ -1,8 +1,7 @@
 package com.ttn.bootcamp.springDataJPAPart2.entities;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 import javax.persistence.*;
 
@@ -12,7 +11,7 @@ import javax.persistence.*;
 @Table(name = "employee_table")
 public class Employee {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "emp_id")
     private int id;
     @Column(name = "emp_first_name")
